@@ -9,7 +9,7 @@ import Contact from "./Components/Contact";
 
 const App = () => {
   return (
-    <div className="bg-gray-900 text-white font-sans">
+    <div className=" bg-linear-to-r from-black  to-blue-900 text-white font-sans">
       <Navbar />
       <Hero />
       <About />
