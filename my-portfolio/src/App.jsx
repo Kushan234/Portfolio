@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Design from "./Components/Design";
 
 const App = () => {
   return (
@@ -15,9 +16,10 @@ const App = () => {
       <About />
       <Skills />
       <Projects />
+      <Design />
       <Contact />
       <footer className="text-center py-6 text-sm text-gray-400">
-        © {new Date().getFullYear()} Kushan Tharaka | Software Engineer & UI/UX Developer
+        © {new Date().getFullYear()} Kushan Tharaka | FullStack Develoer & UI/UX Developer
       </footer>
     </div>
   );

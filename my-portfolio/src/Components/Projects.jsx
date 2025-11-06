@@ -2,19 +2,44 @@ import React from "react";
 
 const projects = [
   {
-    name: "Inventory Management System",
-    tech: "MERN + Tailwind",
-    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
-  },
-  {
-    name: "E-Learning Platform",
+    name: "Coffee shop system",
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
   },
   {
-    name: "Blog Site",
+    name: "E-Commerce Shopping website",
+    tech: "MERN + Tailwind",
+    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
+  },
+  {
+    name: "Inventory Managment System",
     tech: "Next.js Full Stack",
     desc: "Dynamic blog with authentication, posts, and comments using Next.js and MongoDB.",
+  },
+  {
+    name: "Blog Site",
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
+  },
+  {
+    name: " E-Learning System",
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
+  },
+    {
+    name: "Blog Site",
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
+  },
+  {
+    name: "To-Do App",
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
+  },
+  {
+    name: "Landing Page",
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
   },
 ];
 

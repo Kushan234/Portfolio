@@ -3,7 +3,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 const Navbar = () => {
-   const item = ["Home", "About", "Skills", "Projects", "Contact", ];
+   const item = ["Home", "About", "Skills", "Projects", "Design", "Contact", ];
   return (
     <nav className="flex justify-between px-14 items-center py-4  shadow-lg sticky top-0 z-50">
       <h1 className="text-2xl font-bold text-blue-400 text-start">Kushan Tharaka</h1>

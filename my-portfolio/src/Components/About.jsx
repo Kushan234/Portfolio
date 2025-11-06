@@ -40,7 +40,7 @@ const About = () => {
         <img
           src={profilePic}
           alt="Kushan Tharaka"
-          className="w-64 h-64 object-cover rounded-2xl shadow-lg border-2 border-blue-400 hover:scale-105 transition-transform duration-300"
+          className="w-72 h-72 object-cover rounded-2xl shadow-lg border-2 border-blue-400 hover:scale-105 transition-transform duration-300"
         />
       </motion.div>
 
