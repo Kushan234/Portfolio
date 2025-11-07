@@ -1,5 +1,5 @@
 // App.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
@@ -7,8 +7,13 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Design from "./Components/Design";
+import { initlenis } from "./lenis";
 
 const App = () => {
+  useEffect(()=>{
+    initlenis();
+  },[]);
+  
   return (
     <div className=" bg-linear-to-r from-black  to-blue-900 text-white font-sans">
       <Navbar />

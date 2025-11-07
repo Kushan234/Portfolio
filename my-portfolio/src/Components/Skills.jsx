@@ -1,16 +1,45 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
+import { FaReact } from "react-icons/fa6";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiNodejsLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { RiTailwindCssLine } from "react-icons/ri";
+import { PiFigmaLogoBold } from "react-icons/pi";
+import { FaGitAlt } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaPhp } from "react-icons/fa6";
+import { SiMysql } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
+import { SiAdobexd } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const Skills = () => {
-  const skills = ["React", "Next.js", "Node.js", "MongoDB", "Tailwind CSS", "Figma", "Git", "JavaScript","PHP",,"SQL","Canva", "Adobe XD","C#"];
-
+  const skills = [
+    {name:"React", icon:<FaReact />}, 
+    {name:"Next.js", icon:<RiNextjsFill />},
+     {name:"Node.js", icon:<RiNodejsLine />},
+      {name:"MongoDB" ,icon:<SiMongodb />},
+       {name:"Tailwind CSS",icon:<RiTailwindCssLine />},
+        {name:"Figma",icon:<PiFigmaLogoBold />},
+         {name:"Git",icon:<FaGitAlt />},
+          {name:"JavaScript",icon:<TbBrandJavascript />},
+          {name:"PHP",icon:<FaPhp />},
+          {name:"SQL",icon:<SiMysql />},
+          {name:"Canva",icon:<SiCanva />}, 
+          {name:"Adobe XD",icon:<SiAdobexd />},
+          {name:"C#",icon:<TbBrandCSharp />}
+        ];
   return (
     <section id="skills" className="py-20 px-6 md:px-20  bg-linear-to-r from-gray-950  to-gray-800">
       <h2 className="text-3xl font-bold mb-10 text-blue-400">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {skills.map((skill) => (
-          <div key={skill} className="bg-gray-700 p-4 rounded-xl text-center font-semibold hover:bg-blue-600 transition">
-            {skill}
+          <div key={skill} className="bg-gray-700 p-4 rounded-xl justify-center text-center font-semibold hover:bg-blue-600 transition">
+            {skill.name}
+            <div className="justify-center mt-2 flex">
+            <span className="text-3xl text-blue-400">{skill.icon}</span>
+            </div>
+          
           </div>
         ))}
       </div>
