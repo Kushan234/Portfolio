@@ -20,8 +20,8 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
-      <Projects />
       <Design />
+      <Projects />
       <Contact />
       <footer className="text-center py-6 text-sm text-gray-400">
         © {new Date().getFullYear()} Kushan Tharaka | FullStack Develoer & UI/UX Developer

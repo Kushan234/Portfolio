@@ -5,29 +5,84 @@ import { FaFacebook } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-6 md:px-20  bg-linear-to-r from-gray-950  to-gray-800">
-      <h2 className="text-3xl font-bold mb-6 text-blue-400">Contact Me</h2>
-      <p className="text-gray-300 mb-6">Interested in working together? Let’s connect!</p>
-      <input type="text" value="Drop Message here" className="bg-gray-400 text-gray-700 w-80 h-10 mr-4 rounded-lg px-2"/>
-      <a
-        href="mailto:kushan.tharaka@example.com"
-        className="px-6 py-3 bg-blue-600 rounded-lg text-white font-semibold hover:bg-blue-700 transition"
-      >
-        Send Email
-      </a>
+    <section
+      id="contact"
+      className="py-20 px-6 md:px-20 bg-gradient-to-b from-gray-900 to-black"
+    >
+      <div className="max-w-3xl mx-auto text-center">
 
-       <div className="flex space-x-6 text-2xl text-gray-400 mt-14 ">
-               <a className="hover:text-blue-400" href="https://linkedin.com/in/kushan-tharaka-7b8bb22ba">
-               <IoLogoLinkedin />
-               </a>
-               <a className="hover:text-blue-400" href="https://github.com/Kushan234">
-               <FaGithub />
-               </a>
-               <a className="hover:text-blue-400" href="https://facebook.com/Kushan.Tharaka">
-                <FaFacebook />
-               </a>
-            
-           </div>
+        {/* Title */}
+        <h2 className="text-4xl font-bold mb-4 text-blue-400">
+          Let's Connect
+        </h2>
+        <p className="text-gray-400 mb-10 text-lg">
+          Feel free to reach out for projects, collaborations, or just a friendly chat.
+        </p>
+
+        {/* Contact Card */}
+        <div className="bg-white/5 backdrop-blur-lg shadow-xl border border-white/10 p-10 rounded-3xl">
+
+          {/* Input Field */}
+          <input
+            type="text"
+            placeholder="Type your message..."
+            className="w-full bg-gray-800/60 border border-gray-700 px-4 py-3 rounded-lg text-gray-200 focus:outline-none 
+              focus:border-blue-500 transition-all duration-300"
+          />
+
+          {/* Send Button */}
+          <a
+            href="mailto:kushan.tharaka@example.com"
+            className="block w-full mt-5 py-3 rounded-lg 
+              bg-gradient-to-r from-blue-600 to-blue-500 
+              text-white font-semibold text-center 
+              hover:opacity-90 transition-all duration-300"
+          >
+            Send Message
+          </a>
+
+          {/* Social Icons */}
+          <div className="flex justify-center mt-10 space-x-8">
+
+            {/* LinkedIn */}
+            <a
+              href="https://linkedin.com/in/kushan-tharaka-7b8bb22ba"
+              className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br 
+                from-blue-900/40 to-blue-600/20 border border-blue-500/20 hover:border-blue-500/60 
+                hover:scale-110 transition-all duration-300"
+            >
+              <IoLogoLinkedin className="text-3xl text-blue-400" />
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/Kushan234"
+              className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br 
+                from-gray-800 to-gray-700 border border-gray-500/20 hover:border-gray-400/60 
+                hover:scale-110 transition-all duration-300"
+            >
+              <FaGithub className="text-3xl text-gray-300" />
+            </a>
+
+            {/* Facebook */}
+            <a
+              href="https://facebook.com/Kushan.Tharaka"
+              className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br 
+                from-blue-800/40 to-blue-500/20 border border-blue-400/20 hover:border-blue-400/60 
+                hover:scale-110 transition-all duration-300"
+            >
+              <FaFacebook className="text-3xl text-blue-300" />
+            </a>
+          </div>
+
+        </div>
+
+        {/* Footer */}
+        <p className="text-gray-500 text-sm mt-10">
+          © {new Date().getFullYear()} Kushan Tharaka • Portfolio
+        </p>
+
+      </div>
     </section>
   );
 };

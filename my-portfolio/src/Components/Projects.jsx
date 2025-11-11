@@ -1,7 +1,6 @@
 import React from "react";
-import coffeeShop from '../assets/coffeeShop.png'
-import ecommerce from '../assets/ecommerce.png'
-
+import coffeeShop from '../assets/coffeeShop.png';
+import ecommerce from '../assets/ecommerce.png';
 
 const projects = [
   {
@@ -9,49 +8,56 @@ const projects = [
     img: coffeeShop,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
-   
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "E-Commerce Shopping website",
     img: ecommerce,
     tech: "MERN + Tailwind",
     desc: "A full-stack inventory management system with CRUD operations and user authentication.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Inventory Managment System",
     img: coffeeShop,
     tech: "Next.js Full Stack",
     desc: "Dynamic blog with authentication, posts, and comments using Next.js and MongoDB.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Blog Site",
     img: coffeeShop,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
-    name: " E-Learning System",
+    name: "E-Learning System",
     img: coffeeShop,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
-    {
+  {
     name: "Blog Site",
     img: ecommerce,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "To-Do App",
     img: coffeeShop,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Landing Page",
     img: coffeeShop,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
 ];
 
@@ -62,19 +68,31 @@ const Projects = () => {
 
       <div className="grid md:grid-cols-3 gap-8">
         {projects.map((p) => (
-          <div key={p.name} 
-          className="relative rounded-xl overflow-hidden hover:scale-105 transition-transform">
+          <a href={p.link}>
+          <div
+            key={p.name}
+            className="relative rounded-xl overflow-hidden group hover:scale-105 transition-transform duration-300"
+          >
+            <img src={p.img} className="w-full h-72 object-cover" />
 
-            <img src={p.img}  className="w-full h-72 object-cover" />
-
-            <div className="absolute -inset-3 "></div>
-             <div className="absolute bottom-4 left-4 right-4 bg-black/50">
-             <h3 className="text-xl font-semibold text-white">{p.name}</h3>
+            {/* Sliding Text Container */}
+            <div
+              className="
+                absolute bottom-0 left-0 right-0 
+                bg-black/60 p-4 
+                translate-y-full 
+                group-hover:translate-y-0 
+                transition-all duration-500
+              "
+            >
+              <h3 className="text-xl font-semibold text-white">{p.name}</h3>
               <p className="text-sm text-gray-300">{p.tech}</p>
-             <p className="text-gray-200 text-sm mt-1">{p.desc}</p>
-      </div>
+              <p className="text-gray-200 text-sm mt-1">{p.desc}</p>
+            </div>
           </div>
+          </a>
         ))}
+      
       </div>
       
     </section>

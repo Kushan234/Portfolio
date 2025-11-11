@@ -11,10 +11,8 @@ const Hero = () => {
   initial={{ opacity: 0, y: -20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
-  className="text-6xl font-bold text-white"
->
-  Hi, I'm <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text"> Kushan Tharaka</span>
-</motion.h1>
+  className="text-6xl font-bold text-white"> Hi, I'm <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text"> Kushan Tharaka</span>
+    </motion.h1>
 
       <motion.p
         initial={{ opacity: 0 }}
@@ -36,7 +34,7 @@ const Hero = () => {
       </motion.p>
      <div className="flex space-x-4">
        <motion.a
-        href="#projects"
+        href="#design"
         whileHover={{ scale: 1.1 }}
         className="mt-8 px-6 py-3 bg-blue-600 flex rounded-lg text-white font-semibold hover:bg-blue-700 transition"
       >
