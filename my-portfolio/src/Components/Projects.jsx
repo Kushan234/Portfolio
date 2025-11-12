@@ -1,6 +1,12 @@
 import React from "react";
 import coffeeShop from '../assets/coffeeShop.png';
 import ecommerce from '../assets/ecommerce.png';
+import inventory from '../assets/inventory.png';
+import blog1 from '../assets/blog1.png';
+import elearning from '../assets/e-learning.png';
+import todolist from '../assets/to-do-list.png';
+import blog2 from '../assets/blog2.png';
+import personalFile from '../assets/personal-file.png';
 
 const projects = [
   {
@@ -19,42 +25,42 @@ const projects = [
   },
   {
     name: "Inventory Managment System",
-    img: coffeeShop,
+    img: inventory,
     tech: "Next.js Full Stack",
     desc: "Dynamic blog with authentication, posts, and comments using Next.js and MongoDB.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
-    name: "Blog Site",
-    img: coffeeShop,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
-  },
-  {
     name: "E-Learning System",
-    img: coffeeShop,
+    img: elearning,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Blog Site",
-    img: ecommerce,
+    img: blog1,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "To-Do App",
-    img: coffeeShop,
+    img: todolist,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Landing Page",
-    img: coffeeShop,
+    img: blog2,
+    tech: "React + Framer Motion",
+    desc: "A responsive e-learning frontend with animations and modern UI.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
+  },
+   {
+    name: "Personal File Mnagement System",
+    img: personalFile,
     tech: "React + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
     link : "https://coffee-shop-system-oap5.vercel.app/",

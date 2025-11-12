@@ -3,11 +3,12 @@ import design1 from '../assets/Design1.png';
 import design2 from '../assets/Design2.png';  
 import design3 from '../assets/Design3.png';
 import design4 from '../assets/Design4.png';
+import portfolio from '../assets/portfolio.png';
 
 const Design = [
   {
     name: "Portfolio UI Design",
-    img: design1,
+    img: portfolio,
     tech: "Figma",
     desc: "A full-stack inventory management system with CRUD operations and user authentication.",
     link : "https://coffee-shop-system-oap5.vercel.app/",

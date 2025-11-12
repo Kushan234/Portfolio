@@ -16,11 +16,11 @@ import { TbBrandCSharp } from "react-icons/tb";
 const Skills = () => {
   const skills = [
     {name:"React", icon:<FaReact />}, 
+    {name:"Figma",icon:<PiFigmaLogoBold />},
     {name:"Next.js", icon:<RiNextjsFill />},
      {name:"Node.js", icon:<RiNodejsLine />},
       {name:"MongoDB" ,icon:<SiMongodb />},
        {name:"Tailwind CSS",icon:<RiTailwindCssLine />},
-        {name:"Figma",icon:<PiFigmaLogoBold />},
          {name:"Git",icon:<FaGitAlt />},
           {name:"JavaScript",icon:<TbBrandJavascript />},
           {name:"PHP",icon:<FaPhp />},

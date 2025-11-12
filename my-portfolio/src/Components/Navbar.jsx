@@ -15,15 +15,15 @@ const Navbar = () => {
             </a>
           </li>
         ))}
-         <div className="flex space-x-6 text-2xl text-gray-400">
+         <div className="flex space-x-6 text-2xl text-gray-400 ">
           <a href="https://linkedin.com/in/kushan-tharaka-7b8bb22ba">
-          <IoLogoLinkedin />
+          <IoLogoLinkedin className="hover:text-blue-400 duration-300"/>
           </a>
           <a href="https://github.com/Kushan234">
-          <FaGithub />
+          <FaGithub className="hover:text-blue-400 duration-300"/>
           </a>
           <a href="https://facebook.com/Kushan.Tharaka">
-           <FaFacebook />
+           <FaFacebook className="hover:text-blue-400 duration-300"/>
           </a>
        
       </div>
