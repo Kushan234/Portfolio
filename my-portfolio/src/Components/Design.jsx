@@ -9,37 +9,37 @@ const Design = [
   {
     name: "Portfolio UI Design",
     img: portfolio,
-    tech: "Figma",
+    tech: "Figma + Prototyping",
     desc: "A full-stack inventory management system with CRUD operations and user authentication.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "E-Commerce UI Design",
     img: design4,
-    tech: "Figma",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "Figma + Prototyping",
+    desc: "A complete e-commerce interface designed in Figma with interactive prototyping, showcasing user-friendly layouts for product browsing, cart management, and checkout flow with a modern and intuitive UI/UX.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
    name: "Funiture Shop UI Design",
    img: design3,
-   tech: "Figma",
-   desc: "A responsive e-learning frontend with animations and modern UI.",
-   link : "https://coffee-shop-system-oap5.vercel.app/",
+   tech: "Figma + Prototyping",
+   desc: "A modern and interactive furniture shop interface designed in Figma, with prototyping to showcase product browsing, selection, and checkout flows, focusing on a clean, user-friendly, and visually appealing experience.",
+   link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=21%3A2&node-id=23-3&viewport=-34%2C23%2C0.1&t=E0ZZq7f4hiNPZVJe-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=23%3A3",
  },
   {
     name: "Courser Landing Page UI Design",
     img: design2,
     tech: "Figma",
-    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
+    desc: "A visually appealing and responsive landing page designed in Figma, focusing on clean layout, intuitive navigation, and engaging user experience.",
+    link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=0%3A1&node-id=8-140&viewport=75%2C226%2C0.12&t=uhR7iQWwjYUve70g-1&scaling=min-zoom&content-scaling=fixed",
   },
    {
     name: "Space Website UI Design",
     img: design1,
     tech: "Figma",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
+    desc: "A modern and immersive space-themed website UI designed in Figma, featuring a visually engaging layout, intuitive navigation, and a futuristic user experience.",
+    link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=13%3A98&team_id=1339542521283069311&node-id=19-55&scaling=min-zoom&content-scaling=fixed&t=ViPBAXqzSGBOe5v5-1",
   },
 ];
 
@@ -64,6 +64,7 @@ const Projects = () => {
             <h3 className="text-xl font-semibold mb-2 text-white">{p.name}</h3>
             <p className="text-sm text-gray-400 mb-2">{p.tech}</p>
             <p className="text-gray-300">{p.desc}</p>
+             <a className="text-green-300 text-base hover:text-green-500 transform font-bold ml-72" href={p.link}>Link to Visit</a>
           </div>
           </div>
           </a>

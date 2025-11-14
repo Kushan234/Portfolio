@@ -12,57 +12,57 @@ const projects = [
   {
     name: "Coffee shop system",
     img: coffeeShop,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "MERN Stack+ Tailwind css + Framer Motion",
+    desc: "A responsive coffee shop web app built with React, Tailwind CSS, Framer Motion, and a Node.js backend, featuring product browsing, cart management, and basic admin controls.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "E-Commerce Shopping website",
     img: ecommerce,
-    tech: "MERN + Tailwind",
-    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
+    tech: "MERN Stack ",
+    desc: "A complete e-commerce web application built using React on the front end and Node.js on the backend, featuring product browsing, cart management, user authentication, and secure order handling.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Inventory Managment System",
     img: inventory,
-    tech: "Next.js Full Stack",
-    desc: "Dynamic blog with authentication, posts, and comments using Next.js and MongoDB.",
+    tech: "MERN Stack ",
+    desc: "A streamlined inventory management application built using the MERN stack (MongoDB, Express, React, Node.js), with features for product tracking, stock updates, user authentication, and real-time inventory control.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "E-Learning System",
     img: elearning,
-    tech: "React + Framer Motion",
+    tech: "React + Tailwind css + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "Blog Site",
     img: blog1,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "Next.js + Framer Motion",
+    desc: "A dynamic blog platform built with Next.js and Tailwind CSS, featuring post creation, editing, user authentication, and a fast, responsive UI for smooth content browsing and management.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
     name: "To-Do App",
     img: todolist,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "React ",
+    desc: "A simple and responsive to-do list application built with React, allowing users to add, edit, delete, and manage daily tasks with an intuitive interface.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
-    name: "Landing Page",
+    name: "Blog Site 2",
     img: blog2,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "Next js + Tailwind css + Framer Motion",
+    desc: "A modern blog platform built using Next.js and Tailwind CSS, featuring post creation, editing, user authentication, and a fast, responsive UI for smooth content reading and management.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
    {
     name: "Personal File Mnagement System",
     img: personalFile,
-    tech: "React + Framer Motion",
-    desc: "A responsive e-learning frontend with animations and modern UI.",
+    tech: "HTML + CSS + JavaScript + PHP + MySQL",
+    desc: "A secure personal file management system built using HTML, CSS, JavaScript, and PHP with MySQL, allowing users to upload, store, organize, and manage files through a simple and user-friendly interface.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
 ];
@@ -74,14 +74,13 @@ const Projects = () => {
 
       <div className="grid md:grid-cols-3 gap-8">
         {projects.map((p) => (
-          <a href={p.link}>
+          
           <div
             key={p.name}
             className="relative rounded-xl overflow-hidden group hover:scale-105 transition-transform duration-300"
           >
             <img src={p.img} className="w-full h-72 object-cover" />
 
-            {/* Sliding Text Container */}
             <div
               className="
                 absolute bottom-0 left-0 right-0 
@@ -94,9 +93,10 @@ const Projects = () => {
               <h3 className="text-xl font-semibold text-white">{p.name}</h3>
               <p className="text-sm text-gray-300">{p.tech}</p>
               <p className="text-gray-200 text-sm mt-1">{p.desc}</p>
+              <a className="text-green-300 text-base hover:text-green-500 transform font-bold ml-72" href={p.link}>Link to Visit</a>
             </div>
           </div>
-          </a>
+        
         ))}
       
       </div>

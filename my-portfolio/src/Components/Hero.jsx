@@ -41,8 +41,10 @@ const Hero = () => {
         View My Work 
        <FaArrowUpRightFromSquare className="justify-center items-center p-1 ml-2 w-5 h-5 mt-1 text-lg"/>
       </motion.a>
+
       <motion.a
-        href="#projects"
+        href="../../public/Kushan-Tharaka-Resume.pdf" 
+        download="Kushan-Tharaka-Resume.pdf"
         whileHover={{ scale: 1.1 }}
         className="mt-8 px-6 py-3 flex rounded-lg text-white font-medium border-1 outline-gray-400  transition"
       >

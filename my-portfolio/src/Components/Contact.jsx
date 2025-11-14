@@ -51,7 +51,7 @@ const Contact = () => {
                 from-blue-900/40 to-blue-600/20 border border-blue-500/20 hover:border-blue-500/60 
                 hover:scale-110 transition-all duration-300"
             >
-              <IoLogoLinkedin className="text-3xl text-blue-400" />
+              <IoLogoLinkedin className="text-3xl text-blue-400 hover:text-blue-600 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]" />
             </a>
 
             {/* GitHub */}
@@ -61,7 +61,7 @@ const Contact = () => {
                 from-gray-800 to-gray-700 border border-gray-500/20 hover:border-gray-400/60 
                 hover:scale-110 transition-all duration-300"
             >
-              <FaGithub className="text-3xl text-gray-300" />
+              <FaGithub className="text-3xl text-blue-400 hover:text-blue-600 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]" />
             </a>
 
             {/* Facebook */}
@@ -71,7 +71,7 @@ const Contact = () => {
                 from-blue-800/40 to-blue-500/20 border border-blue-400/20 hover:border-blue-400/60 
                 hover:scale-110 transition-all duration-300"
             >
-              <FaFacebook className="text-3xl text-blue-300" />
+              <FaFacebook className="text-3xl text-blue-400 hover:text-blue-600 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]" />
             </a>
           </div>
 

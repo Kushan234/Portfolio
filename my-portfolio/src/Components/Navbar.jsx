@@ -6,24 +6,24 @@ const Navbar = () => {
    const item = ["Home", "About", "Skills", "Design", "Projects",  "Contact", ];
   return (
     <nav className="flex justify-between px-14 items-center py-4  shadow-lg sticky top-0 z-50">
-      <h1 className="text-2xl font-bold text-blue-400 text-start">Kushan Tharaka</h1>
+      <h1 className="text-2xl font-bold text-blue-400 text-start ml-6">Kushan Tharaka</h1>
       <ul className="flex space-x-14">
         {item.map((item) => (
           <li key={item}>
-            <a href={`#${item.toLowerCase()}`} className="hover:text-blue-400 duration-300">
+            <a href={`#${item.toLowerCase()}`} className="hover:text-blue-400 duration-300 text-base font-semibold hover:drop-shadow-[0_0_10px_rgb(59,130,246)]">
               {item}
             </a>
           </li>
         ))}
-         <div className="flex space-x-6 text-2xl text-gray-400 ">
+         <div className="flex space-x-6 text-2xl text-gray-400  ">
           <a href="https://linkedin.com/in/kushan-tharaka-7b8bb22ba">
-          <IoLogoLinkedin className="hover:text-blue-400 duration-300"/>
+          <IoLogoLinkedin className="hover:text-blue-600 duration-300 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]"/>
           </a>
           <a href="https://github.com/Kushan234">
-          <FaGithub className="hover:text-blue-400 duration-300"/>
+          <FaGithub className="hover:text-blue-600 duration-300 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]"/>
           </a>
           <a href="https://facebook.com/Kushan.Tharaka">
-           <FaFacebook className="hover:text-blue-400 duration-300"/>
+           <FaFacebook className="hover:text-blue-600 duration-300 hover:drop-shadow-[0_0_10px_rgb(59,130,246)]"/>
           </a>
        
       </div>
