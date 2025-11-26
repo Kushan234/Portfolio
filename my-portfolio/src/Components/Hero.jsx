@@ -43,12 +43,12 @@ const Hero = () => {
       </motion.a>
 
       <motion.a
-        href="../../public/Kushan-Tharaka-Resume.pdf" 
+        href="/Kushan-Tharaka-Resume.pdf"
         download="Kushan-Tharaka-Resume.pdf"
         whileHover={{ scale: 1.1 }}
-        className="mt-8 px-6 py-3 flex rounded-lg text-white font-medium border-1 outline-gray-400  transition"
+        className="mt-8 px-6 py-3 flex rounded-lg text-white font-medium border-1 outline-gray-400 transition"
       >
-        Download CV 
+        Download CV
         <AiOutlineDownload className="justify-center items-center p-1 ml-2 w-7 h-7 text-lg" />
       </motion.a>
      </div>
