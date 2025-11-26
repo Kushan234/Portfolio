@@ -17,25 +17,11 @@ const projects = [
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
-    name: "E-Commerce Shopping website",
-    img: ecommerce,
-    tech: "MERN Stack ",
-    desc: "A complete e-commerce web application built using React on the front end and Node.js on the backend, featuring product browsing, cart management, user authentication, and secure order handling.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
-  },
-  {
-    name: "Inventory Managment System",
-    img: inventory,
-    tech: "MERN Stack ",
-    desc: "A streamlined inventory management application built using the MERN stack (MongoDB, Express, React, Node.js), with features for product tracking, stock updates, user authentication, and real-time inventory control.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
-  },
-  {
     name: "E-Learning System",
     img: elearning,
     tech: "React + Tailwind css + Framer Motion",
     desc: "A responsive e-learning frontend with animations and modern UI.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
+    link : "https://e-learning-system-henna.vercel.app/",
   },
   {
     name: "Blog Site",
@@ -44,11 +30,25 @@ const projects = [
     desc: "A dynamic blog platform built with Next.js and Tailwind CSS, featuring post creation, editing, user authentication, and a fast, responsive UI for smooth content browsing and management.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
+   {
+    name: "E-Commerce Shopping website",
+    img: ecommerce,
+    tech: "MERN Stack ",
+    desc: "A complete e-commerce web application built using React on the front end and Node.js on the backend, featuring product browsing, cart management, user authentication, and secure order handling.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
+  },
   {
     name: "To-Do App",
     img: todolist,
     tech: "React ",
     desc: "A simple and responsive to-do list application built with React, allowing users to add, edit, delete, and manage daily tasks with an intuitive interface.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
+  },
+  {
+    name: "Inventory Managment System",
+    img: inventory,
+    tech: "MERN Stack ",
+    desc: "A streamlined inventory management application built using the MERN stack (MongoDB, Express, React, Node.js), with features for product tracking, stock updates, user authentication, and real-time inventory control.",
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
   {
@@ -70,7 +70,8 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="py-20 px-6 md:px-20">
-      <h2 className="text-3xl font-bold mb-10 text-blue-400">Projects</h2>
+      <h2 className="text-5xl font-extrabold justify-center mb-5 text-center text-blue-400">Projects</h2>
+      <p className="text-xl px-10 font-semibold justify-center text-center mb-14 text-gray-400"> “Focused on crafting intuitive, user-centered designs with clear layouts, smooth interactions, and visually engaging interfaces that enhance the overall digital experience.”</p>
 
       <div className="grid md:grid-cols-3 gap-8">
         {projects.map((p) => (

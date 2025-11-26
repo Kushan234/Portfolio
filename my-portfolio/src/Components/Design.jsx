@@ -6,19 +6,13 @@ import design4 from '../assets/Design4.png';
 import portfolio from '../assets/portfolio.png';
 
 const Design = [
-  {
-    name: "Portfolio UI Design",
-    img: portfolio,
-    tech: "Figma + Prototyping",
-    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
-  },
+  
   {
     name: "E-Commerce UI Design",
     img: design4,
     tech: "Figma + Prototyping",
     desc: "A complete e-commerce interface designed in Figma with interactive prototyping, showcasing user-friendly layouts for product browsing, cart management, and checkout flow with a modern and intuitive UI/UX.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
+    link : "https://www.figma.com/proto/VfnKl6WkE3yomiI4yx702o/E-Commerce-website?page-id=0%3A1&node-id=3-2&viewport=-1976%2C852%2C0.28&t=IzPMIkxrroAZV5TP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A2",
   },
   {
    name: "Funiture Shop UI Design",
@@ -41,12 +35,20 @@ const Design = [
     desc: "A modern and immersive space-themed website UI designed in Figma, featuring a visually engaging layout, intuitive navigation, and a futuristic user experience.",
     link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=13%3A98&team_id=1339542521283069311&node-id=19-55&scaling=min-zoom&content-scaling=fixed&t=ViPBAXqzSGBOe5v5-1",
   },
+  {
+    name: "Portfolio UI Design",
+    img: portfolio,
+    tech: "Figma + Prototyping",
+    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
+  },
 ];
 
 const Projects = () => {
   return (
     <section id="design" className="py-20 px-6 md:px-20">
-      <h2 className="text-3xl font-bold mb-10 text-blue-400">Designs</h2>
+      <h2 className="text-5xl font-extrabold justify-center mb-5 text-center text-blue-400">Designs</h2>
+      <p className="text-xl px-10 font-semibold justify-center text-center mb-14 text-gray-400">“A curated collection of my real-world projects showcasing my abilities in full-stack development, UI/UX design, and building functional, visually appealing digital solutions.”</p>
       <div className="grid md:grid-cols-3 gap-8">
         {Design.map((p) => (
           <a href={p.link}>

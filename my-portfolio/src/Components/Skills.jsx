@@ -31,7 +31,8 @@ const Skills = () => {
         ];
   return (
     <section id="skills" className="py-20 px-6 md:px-20  bg-linear-to-r from-gray-950  to-gray-800">
-      <h2 className="text-3xl font-bold mb-10 text-blue-400">Skills</h2>
+      <h2 className="text-5xl font-extrabold justify-center mb-5 text-center text-blue-400 ">Skills</h2>
+          <p className="text-xl px-10 font-semibold justify-center text-center mb-14 text-gray-400">“A versatile developer skilled in creating responsive web applications, writing clean code, and building seamless user experiences with modern tools and frameworks.”</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {skills.map((skill) => (
           <div key={skill} className="bg-gray-700 p-4 rounded-xl justify-center text-center font-semibold hover:bg-blue-600 transition">
