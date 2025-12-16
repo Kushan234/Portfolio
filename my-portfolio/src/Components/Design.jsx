@@ -22,11 +22,11 @@ const Design = [
    link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=21%3A2&node-id=23-3&viewport=-34%2C23%2C0.1&t=E0ZZq7f4hiNPZVJe-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=23%3A3",
  },
   {
-    name: "Courser Landing Page UI Design",
-    img: design2,
-    tech: "Figma",
-    desc: "A visually appealing and responsive landing page designed in Figma, focusing on clean layout, intuitive navigation, and engaging user experience.",
-    link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=0%3A1&node-id=8-140&viewport=75%2C226%2C0.12&t=uhR7iQWwjYUve70g-1&scaling=min-zoom&content-scaling=fixed",
+    name: "Portfolio UI Design",
+    img: portfolio,
+    tech: "Figma + Prototyping",
+    desc: "This portfolio design was created in Figma to reflect my design thinking, visual balance, and attention to user experience.",
+    link : "https://coffee-shop-system-oap5.vercel.app/",
   },
    {
     name: "Space Website UI Design",
@@ -35,13 +35,14 @@ const Design = [
     desc: "A modern and immersive space-themed website UI designed in Figma, featuring a visually engaging layout, intuitive navigation, and a futuristic user experience.",
     link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=13%3A98&team_id=1339542521283069311&node-id=19-55&scaling=min-zoom&content-scaling=fixed&t=ViPBAXqzSGBOe5v5-1",
   },
-  {
-    name: "Portfolio UI Design",
-    img: portfolio,
-    tech: "Figma + Prototyping",
-    desc: "A full-stack inventory management system with CRUD operations and user authentication.",
-    link : "https://coffee-shop-system-oap5.vercel.app/",
+   {
+    name: "Courser Landing Page UI Design",
+    img: design2,
+    tech: "Figma",
+    desc: "A visually appealing and responsive landing page designed in Figma, focusing on clean layout, intuitive navigation, and engaging user experience.",
+    link : "https://www.figma.com/proto/v0fvcaf71jjak2XxYPjfeL/GrowthSpace?page-id=0%3A1&node-id=8-140&viewport=75%2C226%2C0.12&t=uhR7iQWwjYUve70g-1&scaling=min-zoom&content-scaling=fixed",
   },
+ 
 ];
 
 const Projects = () => {
