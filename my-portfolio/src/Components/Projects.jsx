@@ -59,7 +59,7 @@ const projects = [
     link : "https://coffee-shop-system-oap5.vercel.app/",
   },
    {
-    name: "Personal File Mnagement System",
+    name: "Personal File Management System",
     img: personalFile,
     tech: "HTML + CSS + JavaScript + PHP + MySQL",
     desc: "A secure personal file management system built using HTML, CSS, JavaScript, and PHP with MySQL, allowing users to upload, store, organize, and manage files through a simple and user-friendly interface.",

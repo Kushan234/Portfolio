@@ -2,7 +2,6 @@ import React from "react";
 import { FaReact } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { PiFigmaLogoBold } from "react-icons/pi";
 import { FaGitAlt } from "react-icons/fa";
@@ -11,23 +10,24 @@ import { FaPhp } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
-import { TbBrandCSharp } from "react-icons/tb";
+import { SiAdobephotoshop } from "react-icons/si";
+
 
 const Skills = () => {
   const skills = [
+     {name:"Figma",icon:<PiFigmaLogoBold />},
     {name:"React", icon:<FaReact />}, 
-    {name:"Figma",icon:<PiFigmaLogoBold />},
+    {name:"Adobe XD",icon:<SiAdobexd />},
+    {name:"Canva",icon:<SiCanva />},
     {name:"Next.js", icon:<RiNextjsFill />},
+    {name:"Tailwind CSS",icon:<RiTailwindCssLine />},     
      {name:"Node.js", icon:<RiNodejsLine />},
-      {name:"MongoDB" ,icon:<SiMongodb />},
-       {name:"Tailwind CSS",icon:<RiTailwindCssLine />},
-         {name:"Git",icon:<FaGitAlt />},
-          {name:"JavaScript",icon:<TbBrandJavascript />},
-          {name:"PHP",icon:<FaPhp />},
-          {name:"SQL",icon:<SiMysql />},
-          {name:"Canva",icon:<SiCanva />}, 
-          {name:"Adobe XD",icon:<SiAdobexd />},
-          {name:"C#",icon:<TbBrandCSharp />}
+       {name:"JavaScript",icon:<TbBrandJavascript />},
+       {name:"PHP",icon:<FaPhp />},
+       {name:"Adobe Photoshop",icon:<SiAdobephotoshop />},
+         {name:"Git & Github",icon:<FaGitAlt />},
+          {name:"SQL & NoSQL",icon:<SiMysql />}, 
+         
         ];
   return (
     <section id="skills" className="py-20 px-6 md:px-20  bg-linear-to-r from-gray-950  to-gray-800">
